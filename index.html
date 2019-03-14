@@ -1,0 +1,121 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+        <header class="header">
+            <div class="header__content row">
+                <div class="header__logo">
+                    <h1 style="color:white">Biodata Diri</h1>
+                </div>
+                <ul class="header__social">
+                    <li>
+                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    </li>
+                </ul> 
+                <a class="header__search-trigger" href="#0"></a>
+            </div>
+        </header>
+
+
+        <div class="pageheader-content row">
+            <div class="col-full">
+                <div class="featured">
+                    <div class="featured__column featured__column--big">
+                        <div class="entry__info">
+                            <a class="entry__profile-pic">
+                                <img class="avatar" src="images/avatars/user-01.jpg" alt="">
+                            </a>
+                            <ul class="entry__meta">
+                                <li><b>Putu Bagus Kresna Putrawan</b></li>
+                                <p>13 Januari 1998</p>
+                                <p>Jalan Dahlia No 7 Denpasar</p>
+                                <p>Mahasiswa</p>
+                                <p>Mendengarkan Musik</p>
+                                <p>Kresna.putrawan@gmail.com</p>
+                            </ul>
+
+                            <form>
+                                <div class="form-group">
+                                    <p for="exampleInput1">Namamu siapa?</p>
+                                    <input type="text" class="form-control" id="exampleInput1" placeholder="Nama">
+                                </div>
+                                <div class="form-group">
+                                    <p for="exampleInput2">Tanyakan saja</p>
+                                    <input type="text" class="form-control" id="exampleInput2" placeholder="Pertanyaan">
+                                </div>
+                                <div class="form-group form-check">
+                                    <button onclick="myFunction()">Submit</button>
+                                    <p id="demo"></p>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Kresna 2019</span> 
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </footer> 
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function myFunction() {
+        var txt;
+        var r = confirm("Apakah anda sudah submit?");
+        if (r == true) {
+            txt = "Terimakasih atas sarannya!";
+        } else {
+            txt = "Ayo masukkan saran kalian!";
+        }
+        document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
+
+</body>
+
+</html>
