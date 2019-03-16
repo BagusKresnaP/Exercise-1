@@ -1,4 +1,2 @@
 # Exercise-1
-Dev Circle Facebook Bali 
-
-Biodata diri dari salah satu peserta Javascript Development Course Batch 2 di Indonesia
+Biodata diri dari salah satu peserta Javascript Development Course Batch 2 pada kegiatan yang diadakan Dev Circle Facebook Bali 
